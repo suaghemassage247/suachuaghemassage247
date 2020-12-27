@@ -36,9 +36,9 @@ router.get('/sua-ghe-massage-tai-ninh-binh',MaytinhController.suaghemassageninhb
 router.get('/sua-ghe-massage-o-hoa-binh',MaytinhController.suaghemassagehoabinh_get_home);
 router.get('/sua-ghe-massage-hoa-binh',MaytinhController.suaghemassagehoabinh_get_home);
 router.get('/sua-ghe-massage-tai-hoa-binh',MaytinhController.suaghemassagehoabinhredirect_get_home);
-router.get('/sua-ghe-massage-o-thai-nguyen',MaytinhController.suaghemassagethaibinh_get_home);
-router.get('/sua-ghe-massage-thai-nguyen',MaytinhController.suaghemassagethaibinh_get_home);
-router.get('/sua-ghe-massage-tai-thai-nguyen',MaytinhController.suaghemassagethaibinhredirect_get_home);
+router.get('/sua-ghe-massage-o-thai-nguyen',MaytinhController.suaghemassagethainguyen_get_home);
+router.get('/sua-ghe-massage-thai-nguyen',MaytinhController.suaghemassagethainguyen_get_home);
+router.get('/sua-ghe-massage-tai-thai-nguyen',MaytinhController.suaghemassagethainguyen_get_home);
 router.get('/sua-ghe-massage-o-thai-binh',MaytinhController.suaghemassagethaibinh_get_home);
 router.get('/sua-ghe-massage-thai-binh',MaytinhController.suaghemassagethaibinh_get_home);
 router.get('/sua-ghe-massage-tai-thai-binh',MaytinhController.suaghemassagethaibinhredirect_get_home);
